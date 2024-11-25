@@ -1,0 +1,119 @@
+#sbox {
+    border: none;
+    width: 500px;
+    height: 200px;
+    display: flex;                /* Enable flexbox layout */
+    justify-content: center;      /* Center elements horizontally */
+    align-items: center;          /* Center elements vertically */
+    flex-direction: column;
+    border-radius: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#sbody {
+    background-color: rgb(177, 252, 211);
+    display: flex;                /* Enable flexbox layout */
+    justify-content: center;      /* Center elements horizontally */
+    align-items: center;          /* Center elements vertically */
+    flex-direction: row;          /* Arrange children in a row */
+    height: 100vh;                /* Set height to 100% of the viewport height */
+}
+
+#pbody {
+    background-color: rgb(177, 252, 211);
+}
+
+.startPageBtn {
+    margin-top: 1rem; /* Optional spacing above the button */
+    width: 200px;
+    height: 50px;
+    background: rgb(231, 106, 106);
+    border-radius: 25px;
+    letter-spacing: 2px;
+    border: none; /* Removes the border */
+    box-shadow: none; /* Removes any shadow */
+    outline: none;
+    font-size: 20px;
+    color: black; /* Ensure text is visible */
+    
+    /* Center the text */
+    text-align: center; /* Centers text horizontally */
+    line-height: 50px; /* Matches the height of the button for vertical centering */
+}
+
+.registerField {
+    margin-top: 10px;
+    height: 50px;
+    width: 400px;
+    border-radius: 25px;
+    padding-left: 10px;
+    border: none; /* Removes the border */
+    box-shadow: none; /* Removes any shadow around the input */
+    padding-left: 10px; /* Optional: Moves the cursor further to the right */
+    outline: none; /* Removes the focus outline when the input is clicked */
+
+}
+
+.registerFormBox {
+    display: flex; /* Enable Flexbox for the form container */
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    height: 100vh; /* Full viewport height for centering */
+    width: 100%; /* Ensure it spans the full width */
+}
+
+.registerFormBox form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 1rem; /* Add space between form elements */
+    align-items: center; /* Center form elements horizontally */
+}
+
+.registerFormBox button {
+    margin-top: 1rem; /* Add optional spacing above the button */
+    width: 200px;
+    height: 50px;
+    background: rgb(231, 106, 106);
+    border-radius: 25px;
+    letter-spacing: 2px;
+    border: none; /* Removes the border */
+    box-shadow: none; /* Removes any shadow around the input */
+    padding-left: 10px; /* Optional: Moves the cursor further to the right */
+    outline: none; /* Removes the focus outline when the input is clicked */
+}
+
+#profileBio {
+    border: none; /* Removes the border */
+    box-shadow: none;
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+#profileHead1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: Georgia;
+    background-color: white;
+    border: none; /* Removes the border */
+    box-shadow: none;
+}
+
+
+
+.profileBtn {
+    background: rgb(231, 106, 106);
+    border: none; /* Removes the border */
+    box-shadow: none;
+    border-radius: 25px;
+    font-size: small;
+}
